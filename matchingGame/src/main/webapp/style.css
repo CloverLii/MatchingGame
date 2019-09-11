@@ -1,0 +1,35 @@
+.alice {
+ color: blue;
+ }
+
+.bob {
+  color: green;
+}
+
+.bob,.alice {
+    font-style: italic;
+}
+
+table,th,td {
+    /*border: 1px solid black;*/
+    /*border-collapse: collapse;*/
+    background-color: rgba(181, 215, 228, 0.5);
+}
+.hide {
+    opacity: 0;
+}
+.show {
+    opacity: 1;
+}
+
+.matched {
+    opacity: 1;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.display {
+    visibility: visible;
+}
